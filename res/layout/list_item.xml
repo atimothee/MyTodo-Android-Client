@@ -6,9 +6,15 @@
               android:layout_height="match_parent">
     <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
             android:id="@+id/title"
-            android:textSize="14sp"/>
+            android:textSize="14sp"
+            android:padding="5dp"
+            android:textColor="@android:color/primary_text_light"
+            />
     <TextView android:layout_width="fill_parent" android:layout_height="wrap_content"
               android:id="@+id/description"
-            android:textSize="12sp"/>
+            android:textSize="12sp"
+            android:padding="5dp"
+            android:textColor="@android:color/secondary_text_light"
+            />
 
 </LinearLayout>

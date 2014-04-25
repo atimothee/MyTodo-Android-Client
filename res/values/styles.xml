@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Dialog" parent="Theme.Sherlock.Light.Dialog">
+        <item name="actionBarStyle">@style/dialogactionbarstyle</item>
+    </style>
+    <style name="dialogactionbarstyle" parent="@style/Widget.Sherlock.ActionBar">
+    </style>
+</resources>

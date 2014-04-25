@@ -33,7 +33,7 @@ public class ListAdapter extends BaseAdapter{
 
     @Override
     public long getItemId(int position) {
-        return tasks.get(position).id;
+        return tasks.get(position).getId();
     }
 
     @Override
@@ -49,8 +49,8 @@ public class ListAdapter extends BaseAdapter{
         else{
             viewHolder = (ViewHolder) convertView.getTag();
         }
-        viewHolder.description.setText(tasks.get(position).description);
-        viewHolder.title.setText(tasks.get(position).name);
+        viewHolder.description.setText(tasks.get(position).getDescription());
+        viewHolder.title.setText(tasks.get(position).getLabel());
         return convertView;
     }
 
